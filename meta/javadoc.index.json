@@ -1,0 +1,980 @@
+{
+  "ownKey": "javadoc",
+  "childrenPages": {"com": {
+    "ownKey": "com",
+    "childrenPages": {"eden": {
+      "ownKey": "eden",
+      "childrenPages": {
+        "common": {
+          "ownKey": "common",
+          "childrenPages": {
+            "util": {
+              "ownKey": "util",
+              "childrenPages": {
+                "EdenUtils": {
+                  "ownKey": "EdenUtils",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "com/eden/common/util",
+                      "baseUrl": "https://javaeden.github.io/Common",
+                      "fileName": "EdenUtils",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://javaeden.github.io/Common/com/eden/common/util/EdenUtils"
+                    },
+                    "description": "",
+                    "title": "EdenUtils",
+                    "content": ""
+                  }]
+                },
+                "EdenPair": {
+                  "ownKey": "EdenPair",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "com/eden/common/util",
+                      "baseUrl": "https://javaeden.github.io/Common",
+                      "fileName": "EdenPair",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://javaeden.github.io/Common/com/eden/common/util/EdenPair"
+                    },
+                    "description": "",
+                    "title": "EdenPair",
+                    "content": ""
+                  }]
+                }
+              },
+              "ownPages": [{
+                "reference": {
+                  "path": "com/eden/common",
+                  "baseUrl": "https://javaeden.github.io/Common",
+                  "fileName": "util",
+                  "extension": "html",
+                  "usePrettyUrl": true,
+                  "link": "https://javaeden.github.io/Common/com/eden/common/util"
+                },
+                "description": "",
+                "title": "com.eden.common.util",
+                "content": ""
+              }]
+            },
+            "json": {
+              "ownKey": "json",
+              "childrenPages": {
+                "JSONElement": {
+                  "ownKey": "JSONElement",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "com/eden/common/json",
+                      "baseUrl": "https://javaeden.github.io/Common",
+                      "fileName": "JSONElement",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://javaeden.github.io/Common/com/eden/common/json/JSONElement"
+                    },
+                    "description": "",
+                    "title": "JSONElement",
+                    "content": ""
+                  }]
+                },
+                "Jsonable": {
+                  "ownKey": "Jsonable",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "com/eden/common/json",
+                      "baseUrl": "https://javaeden.github.io/Common",
+                      "fileName": "Jsonable",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://javaeden.github.io/Common/com/eden/common/json/Jsonable"
+                    },
+                    "description": "",
+                    "title": "Jsonable",
+                    "content": ""
+                  }]
+                }
+              },
+              "ownPages": [{
+                "reference": {
+                  "path": "com/eden/common",
+                  "baseUrl": "https://javaeden.github.io/Common",
+                  "fileName": "json",
+                  "extension": "html",
+                  "usePrettyUrl": true,
+                  "link": "https://javaeden.github.io/Common/com/eden/common/json"
+                },
+                "description": "",
+                "title": "com.eden.common.json",
+                "content": ""
+              }]
+            }
+          }
+        },
+        "orchid": {
+          "ownKey": "orchid",
+          "childrenPages": {"api": {
+            "ownKey": "api",
+            "childrenPages": {
+              "options": {
+                "ownKey": "options",
+                "childrenPages": {
+                  "OptionsValidator": {
+                    "ownKey": "OptionsValidator",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "com/eden/orchid/api/options",
+                        "baseUrl": "https://javaeden.github.io/Common",
+                        "fileName": "OptionsValidator",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://javaeden.github.io/Common/com/eden/orchid/api/options/OptionsValidator"
+                      },
+                      "description": "",
+                      "title": "OptionsValidator",
+                      "content": ""
+                    }]
+                  },
+                  "extractors": {
+                    "ownKey": "extractors",
+                    "childrenPages": {
+                      "IntOptionExtractor": {
+                        "ownKey": "IntOptionExtractor",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "com/eden/orchid/api/options/extractors",
+                            "baseUrl": "https://javaeden.github.io/Common",
+                            "fileName": "IntOptionExtractor",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://javaeden.github.io/Common/com/eden/orchid/api/options/extractors/IntOptionExtractor"
+                          },
+                          "description": "",
+                          "title": "IntOptionExtractor",
+                          "content": "<h3 id=\"source-types\">Source Types<\/h3>\n<table>\n<thead>\n<tr><th>Item Type<\/th><th>Coercion<\/th><\/tr>\n<\/thead>\n<tbody>\n<tr><td>number<\/td><td>direct<\/td><\/tr>\n<tr><td>string<\/td><td>parse as number<\/td><\/tr>\n<\/tbody>\n<\/table>\n<h3 id=\"destination-types\">Destination Types<\/h3>\n<table>\n<thead>\n<tr><th>Field Type<\/th><th>Annotation<\/th><th>Default Value<\/th><\/tr>\n<\/thead>\n<tbody>\n<tr><td>int<\/td><td>@IntDefault<\/td><td>Annotation value() or 0<\/td><\/tr>\n<tr><td>Integer<\/td><td>@IntDefault<\/td><td>Annotation value() or 0<\/td><\/tr>\n<\/tbody>\n<\/table>\n"
+                        }]
+                      },
+                      "BooleanOptionExtractor": {
+                        "ownKey": "BooleanOptionExtractor",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "com/eden/orchid/api/options/extractors",
+                            "baseUrl": "https://javaeden.github.io/Common",
+                            "fileName": "BooleanOptionExtractor",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://javaeden.github.io/Common/com/eden/orchid/api/options/extractors/BooleanOptionExtractor"
+                          },
+                          "description": "",
+                          "title": "BooleanOptionExtractor",
+                          "content": "<h3 id=\"destination-types\">Destination Types<\/h3>\n<table>\n<thead>\n<tr><th>Field Type<\/th><th>Annotation<\/th><th>Default Value<\/th><\/tr>\n<\/thead>\n<tbody>\n<tr><td>boolean<\/td><td>@BooleanDefault<\/td><td>Annotation value() or false<\/td><\/tr>\n<tr><td>Boolean<\/td><td>@BooleanDefault<\/td><td>Annotation value() or false<\/td><\/tr>\n<\/tbody>\n<\/table>\n"
+                        }]
+                      },
+                      "DateTimeOptionExtractor": {
+                        "ownKey": "DateTimeOptionExtractor",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "com/eden/orchid/api/options/extractors",
+                            "baseUrl": "https://javaeden.github.io/Common",
+                            "fileName": "DateTimeOptionExtractor",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://javaeden.github.io/Common/com/eden/orchid/api/options/extractors/DateTimeOptionExtractor"
+                          },
+                          "description": "",
+                          "title": "DateTimeOptionExtractor",
+                          "content": "<h3 id=\"destination-types\">Destination Types<\/h3>\n<table>\n<thead>\n<tr><th>Field Type<\/th><th>Annotation<\/th><th>Default Value<\/th><\/tr>\n<\/thead>\n<tbody>\n<tr><td>String<\/td><td>@StringDefault<\/td><td>Annotation value() or null<\/td><\/tr>\n<tr><td>String[]<\/td><td>none<\/td><td>Empty String[]<\/td><\/tr>\n<\/tbody>\n<\/table>\n"
+                        }]
+                      },
+                      "EnumOptionExtractor": {
+                        "ownKey": "EnumOptionExtractor",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "com/eden/orchid/api/options/extractors",
+                            "baseUrl": "https://javaeden.github.io/Common",
+                            "fileName": "EnumOptionExtractor",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://javaeden.github.io/Common/com/eden/orchid/api/options/extractors/EnumOptionExtractor"
+                          },
+                          "description": "",
+                          "title": "EnumOptionExtractor",
+                          "content": ""
+                        }]
+                      },
+                      "LongOptionExtractor": {
+                        "ownKey": "LongOptionExtractor",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "com/eden/orchid/api/options/extractors",
+                            "baseUrl": "https://javaeden.github.io/Common",
+                            "fileName": "LongOptionExtractor",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://javaeden.github.io/Common/com/eden/orchid/api/options/extractors/LongOptionExtractor"
+                          },
+                          "description": "",
+                          "title": "LongOptionExtractor",
+                          "content": "<h3 id=\"source-types\">Source Types<\/h3>\n<table>\n<thead>\n<tr><th>Item Type<\/th><th>Coercion<\/th><\/tr>\n<\/thead>\n<tbody>\n<tr><td>number<\/td><td>direct<\/td><\/tr>\n<tr><td>string<\/td><td>parse as number<\/td><\/tr>\n<\/tbody>\n<\/table>\n<h3 id=\"destination-types\">Destination Types<\/h3>\n<table>\n<thead>\n<tr><th>Field Type<\/th><th>Annotation<\/th><th>Default Value<\/th><\/tr>\n<\/thead>\n<tbody>\n<tr><td>long<\/td><td>@LongDefault<\/td><td>Annotation value() or 0L<\/td><\/tr>\n<tr><td>Long<\/td><td>@LongDefault<\/td><td>Annotation value() or 0L<\/td><\/tr>\n<\/tbody>\n<\/table>\n"
+                        }]
+                      },
+                      "AnyOptionExtractor": {
+                        "ownKey": "AnyOptionExtractor",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "com/eden/orchid/api/options/extractors",
+                            "baseUrl": "https://javaeden.github.io/Common",
+                            "fileName": "AnyOptionExtractor",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://javaeden.github.io/Common/com/eden/orchid/api/options/extractors/AnyOptionExtractor"
+                          },
+                          "description": "",
+                          "title": "AnyOptionExtractor",
+                          "content": ""
+                        }]
+                      },
+                      "JSONObjectOptionExtractor": {
+                        "ownKey": "JSONObjectOptionExtractor",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "com/eden/orchid/api/options/extractors",
+                            "baseUrl": "https://javaeden.github.io/Common",
+                            "fileName": "JSONObjectOptionExtractor",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://javaeden.github.io/Common/com/eden/orchid/api/options/extractors/JSONObjectOptionExtractor"
+                          },
+                          "description": "",
+                          "title": "JSONObjectOptionExtractor",
+                          "content": "<h3 id=\"source-types\">Source Types<\/h3>\n<table>\n<thead>\n<tr><th>Item Type<\/th><th>Coercion<\/th><\/tr>\n<\/thead>\n<tbody>\n<tr><td>JSONObject<\/td><td>direct<\/td><\/tr>\n<tr><td>Map<\/td><td>new JSONObject from map<\/td><\/tr>\n<\/tbody>\n<\/table>\n<h3 id=\"destination-types\">Destination Types<\/h3>\n<table>\n<thead>\n<tr><th>Field Type<\/th><th>Annotation<\/th><th>Default Value<\/th><\/tr>\n<\/thead>\n<tbody>\n<tr><td>JSONObject<\/td><td>none<\/td><td>null<\/td><\/tr>\n<\/tbody>\n<\/table>\n"
+                        }]
+                      },
+                      "JSONArrayOptionExtractor": {
+                        "ownKey": "JSONArrayOptionExtractor",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "com/eden/orchid/api/options/extractors",
+                            "baseUrl": "https://javaeden.github.io/Common",
+                            "fileName": "JSONArrayOptionExtractor",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://javaeden.github.io/Common/com/eden/orchid/api/options/extractors/JSONArrayOptionExtractor"
+                          },
+                          "description": "",
+                          "title": "JSONArrayOptionExtractor",
+                          "content": "<h3 id=\"source-types\">Source Types<\/h3>\n<table>\n<thead>\n<tr><th>Item Type<\/th><th>Coercion<\/th><\/tr>\n<\/thead>\n<tbody>\n<tr><td>JSONArray<\/td><td>direct<\/td><\/tr>\n<tr><td>anything[]<\/td><td>new JSONArray from array<\/td><\/tr>\n<tr><td>List<\/td><td>new JSONArray from list<\/td><\/tr>\n<\/tbody>\n<\/table>\n<h3 id=\"destination-types\">Destination Types<\/h3>\n<table>\n<thead>\n<tr><th>Field Type<\/th><th>Annotation<\/th><th>Default Value<\/th><\/tr>\n<\/thead>\n<tbody>\n<tr><td>JSONArray<\/td><td>none<\/td><td>null<\/td><\/tr>\n<\/tbody>\n<\/table>\n"
+                        }]
+                      },
+                      "TimeOptionExtractor": {
+                        "ownKey": "TimeOptionExtractor",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "com/eden/orchid/api/options/extractors",
+                            "baseUrl": "https://javaeden.github.io/Common",
+                            "fileName": "TimeOptionExtractor",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://javaeden.github.io/Common/com/eden/orchid/api/options/extractors/TimeOptionExtractor"
+                          },
+                          "description": "",
+                          "title": "TimeOptionExtractor",
+                          "content": "<h3 id=\"destination-types\">Destination Types<\/h3>\n<table>\n<thead>\n<tr><th>Field Type<\/th><th>Annotation<\/th><th>Default Value<\/th><\/tr>\n<\/thead>\n<tbody>\n<tr><td>String<\/td><td>@StringDefault<\/td><td>Annotation value() or null<\/td><\/tr>\n<tr><td>String[]<\/td><td>none<\/td><td>Empty String[]<\/td><\/tr>\n<\/tbody>\n<\/table>\n"
+                        }]
+                      },
+                      "DoubleOptionExtractor": {
+                        "ownKey": "DoubleOptionExtractor",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "com/eden/orchid/api/options/extractors",
+                            "baseUrl": "https://javaeden.github.io/Common",
+                            "fileName": "DoubleOptionExtractor",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://javaeden.github.io/Common/com/eden/orchid/api/options/extractors/DoubleOptionExtractor"
+                          },
+                          "description": "",
+                          "title": "DoubleOptionExtractor",
+                          "content": "<h3 id=\"source-types\">Source Types<\/h3>\n<table>\n<thead>\n<tr><th>Item Type<\/th><th>Coercion<\/th><\/tr>\n<\/thead>\n<tbody>\n<tr><td>number<\/td><td>direct<\/td><\/tr>\n<tr><td>string<\/td><td>parse as number<\/td><\/tr>\n<\/tbody>\n<\/table>\n<h3 id=\"destination-types\">Destination Types<\/h3>\n<table>\n<thead>\n<tr><th>Field Type<\/th><th>Annotation<\/th><th>Default Value<\/th><\/tr>\n<\/thead>\n<tbody>\n<tr><td>double<\/td><td>@DoubleDefault<\/td><td>Annotation value() or 0.0<\/td><\/tr>\n<tr><td>Double<\/td><td>@DoubleDefault<\/td><td>Annotation value() or 0.0<\/td><\/tr>\n<\/tbody>\n<\/table>\n"
+                        }]
+                      },
+                      "ListOptionExtractor": {
+                        "ownKey": "ListOptionExtractor",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "com/eden/orchid/api/options/extractors",
+                            "baseUrl": "https://javaeden.github.io/Common",
+                            "fileName": "ListOptionExtractor",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://javaeden.github.io/Common/com/eden/orchid/api/options/extractors/ListOptionExtractor"
+                          },
+                          "description": "",
+                          "title": "ListOptionExtractor",
+                          "content": "<h3 id=\"source-types\">Source Types<\/h3>\n<table>\n<thead>\n<tr><th>Item Type<\/th><th>Coercion<\/th><\/tr>\n<\/thead>\n<tbody>\n<tr><td>JSONArray<\/td><td>direct<\/td><\/tr>\n<tr><td>anything[]<\/td><td>new JSONArray from array<\/td><\/tr>\n<tr><td>List<\/td><td>new JSONArray from list<\/td><\/tr>\n<\/tbody>\n<\/table>\n<h3 id=\"destination-types\">Destination Types<\/h3>\n<table>\n<thead>\n<tr><th>Field Type<\/th><th>Annotation<\/th><th>Default Value<\/th><\/tr>\n<\/thead>\n<tbody>\n<tr><td>JSONArray<\/td><td>none<\/td><td>null<\/td><\/tr>\n<\/tbody>\n<\/table>\n"
+                        }]
+                      },
+                      "ArrayOptionExtractor": {
+                        "ownKey": "ArrayOptionExtractor",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "com/eden/orchid/api/options/extractors",
+                            "baseUrl": "https://javaeden.github.io/Common",
+                            "fileName": "ArrayOptionExtractor",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://javaeden.github.io/Common/com/eden/orchid/api/options/extractors/ArrayOptionExtractor"
+                          },
+                          "description": "",
+                          "title": "ArrayOptionExtractor",
+                          "content": "<h3 id=\"source-types\">Source Types<\/h3>\n<table>\n<thead>\n<tr><th>Item Type<\/th><th>Coercion<\/th><\/tr>\n<\/thead>\n<tbody>\n<tr><td>JSONArray<\/td><td>direct<\/td><\/tr>\n<tr><td>anything[]<\/td><td>new JSONArray from array<\/td><\/tr>\n<tr><td>List<\/td><td>new JSONArray from list<\/td><\/tr>\n<\/tbody>\n<\/table>\n<h3 id=\"destination-types\">Destination Types<\/h3>\n<table>\n<thead>\n<tr><th>Field Type<\/th><th>Annotation<\/th><th>Default Value<\/th><\/tr>\n<\/thead>\n<tbody>\n<tr><td>JSONArray<\/td><td>none<\/td><td>null<\/td><\/tr>\n<\/tbody>\n<\/table>\n"
+                        }]
+                      },
+                      "FloatOptionExtractor": {
+                        "ownKey": "FloatOptionExtractor",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "com/eden/orchid/api/options/extractors",
+                            "baseUrl": "https://javaeden.github.io/Common",
+                            "fileName": "FloatOptionExtractor",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://javaeden.github.io/Common/com/eden/orchid/api/options/extractors/FloatOptionExtractor"
+                          },
+                          "description": "",
+                          "title": "FloatOptionExtractor",
+                          "content": "<h3 id=\"source-types\">Source Types<\/h3>\n<table>\n<thead>\n<tr><th>Item Type<\/th><th>Coercion<\/th><\/tr>\n<\/thead>\n<tbody>\n<tr><td>number<\/td><td>direct<\/td><\/tr>\n<tr><td>string<\/td><td>parse as number<\/td><\/tr>\n<\/tbody>\n<\/table>\n<h3 id=\"destination-types\">Destination Types<\/h3>\n<table>\n<thead>\n<tr><th>Field Type<\/th><th>Annotation<\/th><th>Default Value<\/th><\/tr>\n<\/thead>\n<tbody>\n<tr><td>float<\/td><td>@FloatDefault<\/td><td>Annotation value() or 0.0f<\/td><\/tr>\n<tr><td>Float<\/td><td>@FloatDefault<\/td><td>Annotation value() or 0.0f<\/td><\/tr>\n<\/tbody>\n<\/table>\n"
+                        }]
+                      },
+                      "DateOptionExtractor": {
+                        "ownKey": "DateOptionExtractor",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "com/eden/orchid/api/options/extractors",
+                            "baseUrl": "https://javaeden.github.io/Common",
+                            "fileName": "DateOptionExtractor",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://javaeden.github.io/Common/com/eden/orchid/api/options/extractors/DateOptionExtractor"
+                          },
+                          "description": "",
+                          "title": "DateOptionExtractor",
+                          "content": "<h3 id=\"destination-types\">Destination Types<\/h3>\n<table>\n<thead>\n<tr><th>Field Type<\/th><th>Annotation<\/th><th>Default Value<\/th><\/tr>\n<\/thead>\n<tbody>\n<tr><td>String<\/td><td>@StringDefault<\/td><td>Annotation value() or null<\/td><\/tr>\n<tr><td>String[]<\/td><td>none<\/td><td>Empty String[]<\/td><\/tr>\n<\/tbody>\n<\/table>\n"
+                        }]
+                      },
+                      "StringOptionExtractor": {
+                        "ownKey": "StringOptionExtractor",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "com/eden/orchid/api/options/extractors",
+                            "baseUrl": "https://javaeden.github.io/Common",
+                            "fileName": "StringOptionExtractor",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://javaeden.github.io/Common/com/eden/orchid/api/options/extractors/StringOptionExtractor"
+                          },
+                          "description": "",
+                          "title": "StringOptionExtractor",
+                          "content": "<h3 id=\"destination-types\">Destination Types<\/h3>\n<table>\n<thead>\n<tr><th>Field Type<\/th><th>Annotation<\/th><th>Default Value<\/th><\/tr>\n<\/thead>\n<tbody>\n<tr><td>String<\/td><td>@StringDefault<\/td><td>Annotation value() or null<\/td><\/tr>\n<tr><td>String[]<\/td><td>none<\/td><td>Empty String[]<\/td><\/tr>\n<\/tbody>\n<\/table>\n"
+                        }]
+                      }
+                    },
+                    "ownPages": [{
+                      "reference": {
+                        "path": "com/eden/orchid/api/options",
+                        "baseUrl": "https://javaeden.github.io/Common",
+                        "fileName": "extractors",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://javaeden.github.io/Common/com/eden/orchid/api/options/extractors"
+                      },
+                      "description": "",
+                      "title": "com.eden.orchid.api.options.extractors",
+                      "content": ""
+                    }]
+                  },
+                  "AndroidExtractor": {
+                    "ownKey": "AndroidExtractor",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "com/eden/orchid/api/options",
+                        "baseUrl": "https://javaeden.github.io/Common",
+                        "fileName": "AndroidExtractor",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://javaeden.github.io/Common/com/eden/orchid/api/options/AndroidExtractor"
+                      },
+                      "description": "",
+                      "title": "AndroidExtractor",
+                      "content": ""
+                    }]
+                  },
+                  "DefaultExtractor": {
+                    "ownKey": "DefaultExtractor",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "com/eden/orchid/api/options",
+                        "baseUrl": "https://javaeden.github.io/Common",
+                        "fileName": "DefaultExtractor",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://javaeden.github.io/Common/com/eden/orchid/api/options/DefaultExtractor"
+                      },
+                      "description": "",
+                      "title": "DefaultExtractor",
+                      "content": ""
+                    }]
+                  },
+                  "annotations": {
+                    "ownKey": "annotations",
+                    "childrenPages": {
+                      "Archetype": {
+                        "ownKey": "Archetype",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "com/eden/orchid/api/options/annotations",
+                            "baseUrl": "https://javaeden.github.io/Common",
+                            "fileName": "Archetype",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://javaeden.github.io/Common/com/eden/orchid/api/options/annotations/Archetype"
+                          },
+                          "description": "",
+                          "title": "Archetype",
+                          "content": ""
+                        }]
+                      },
+                      "DoubleDefault": {
+                        "ownKey": "DoubleDefault",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "com/eden/orchid/api/options/annotations",
+                            "baseUrl": "https://javaeden.github.io/Common",
+                            "fileName": "DoubleDefault",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://javaeden.github.io/Common/com/eden/orchid/api/options/annotations/DoubleDefault"
+                          },
+                          "description": "",
+                          "title": "DoubleDefault",
+                          "content": ""
+                        }]
+                      },
+                      "Archetypes": {
+                        "ownKey": "Archetypes",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "com/eden/orchid/api/options/annotations",
+                            "baseUrl": "https://javaeden.github.io/Common",
+                            "fileName": "Archetypes",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://javaeden.github.io/Common/com/eden/orchid/api/options/annotations/Archetypes"
+                          },
+                          "description": "",
+                          "title": "Archetypes",
+                          "content": ""
+                        }]
+                      },
+                      "Option": {
+                        "ownKey": "Option",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "com/eden/orchid/api/options/annotations",
+                            "baseUrl": "https://javaeden.github.io/Common",
+                            "fileName": "Option",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://javaeden.github.io/Common/com/eden/orchid/api/options/annotations/Option"
+                          },
+                          "description": "",
+                          "title": "Option",
+                          "content": ""
+                        }]
+                      },
+                      "BooleanDefault": {
+                        "ownKey": "BooleanDefault",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "com/eden/orchid/api/options/annotations",
+                            "baseUrl": "https://javaeden.github.io/Common",
+                            "fileName": "BooleanDefault",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://javaeden.github.io/Common/com/eden/orchid/api/options/annotations/BooleanDefault"
+                          },
+                          "description": "",
+                          "title": "BooleanDefault",
+                          "content": ""
+                        }]
+                      },
+                      "FloatDefault": {
+                        "ownKey": "FloatDefault",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "com/eden/orchid/api/options/annotations",
+                            "baseUrl": "https://javaeden.github.io/Common",
+                            "fileName": "FloatDefault",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://javaeden.github.io/Common/com/eden/orchid/api/options/annotations/FloatDefault"
+                          },
+                          "description": "",
+                          "title": "FloatDefault",
+                          "content": ""
+                        }]
+                      },
+                      "StringDefault": {
+                        "ownKey": "StringDefault",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "com/eden/orchid/api/options/annotations",
+                            "baseUrl": "https://javaeden.github.io/Common",
+                            "fileName": "StringDefault",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://javaeden.github.io/Common/com/eden/orchid/api/options/annotations/StringDefault"
+                          },
+                          "description": "",
+                          "title": "StringDefault",
+                          "content": ""
+                        }]
+                      },
+                      "LongDefault": {
+                        "ownKey": "LongDefault",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "com/eden/orchid/api/options/annotations",
+                            "baseUrl": "https://javaeden.github.io/Common",
+                            "fileName": "LongDefault",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://javaeden.github.io/Common/com/eden/orchid/api/options/annotations/LongDefault"
+                          },
+                          "description": "",
+                          "title": "LongDefault",
+                          "content": ""
+                        }]
+                      },
+                      "AllOptions": {
+                        "ownKey": "AllOptions",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "com/eden/orchid/api/options/annotations",
+                            "baseUrl": "https://javaeden.github.io/Common",
+                            "fileName": "AllOptions",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://javaeden.github.io/Common/com/eden/orchid/api/options/annotations/AllOptions"
+                          },
+                          "description": "",
+                          "title": "AllOptions",
+                          "content": ""
+                        }]
+                      },
+                      "IntDefault": {
+                        "ownKey": "IntDefault",
+                        "ownPages": [{
+                          "reference": {
+                            "path": "com/eden/orchid/api/options/annotations",
+                            "baseUrl": "https://javaeden.github.io/Common",
+                            "fileName": "IntDefault",
+                            "extension": "html",
+                            "usePrettyUrl": true,
+                            "link": "https://javaeden.github.io/Common/com/eden/orchid/api/options/annotations/IntDefault"
+                          },
+                          "description": "",
+                          "title": "IntDefault",
+                          "content": ""
+                        }]
+                      }
+                    },
+                    "ownPages": [{
+                      "reference": {
+                        "path": "com/eden/orchid/api/options",
+                        "baseUrl": "https://javaeden.github.io/Common",
+                        "fileName": "annotations",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://javaeden.github.io/Common/com/eden/orchid/api/options/annotations"
+                      },
+                      "description": "",
+                      "title": "com.eden.orchid.api.options.annotations",
+                      "content": ""
+                    }]
+                  },
+                  "OptionArchetype": {
+                    "ownKey": "OptionArchetype",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "com/eden/orchid/api/options",
+                        "baseUrl": "https://javaeden.github.io/Common",
+                        "fileName": "OptionArchetype",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://javaeden.github.io/Common/com/eden/orchid/api/options/OptionArchetype"
+                      },
+                      "description": "",
+                      "title": "OptionArchetype",
+                      "content": ""
+                    }]
+                  },
+                  "Extractor": {
+                    "ownKey": "Extractor",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "com/eden/orchid/api/options",
+                        "baseUrl": "https://javaeden.github.io/Common",
+                        "fileName": "Extractor",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://javaeden.github.io/Common/com/eden/orchid/api/options/Extractor"
+                      },
+                      "description": "",
+                      "title": "Extractor",
+                      "content": ""
+                    }]
+                  },
+                  "OptionExtractor": {
+                    "ownKey": "OptionExtractor",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "com/eden/orchid/api/options",
+                        "baseUrl": "https://javaeden.github.io/Common",
+                        "fileName": "OptionExtractor",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://javaeden.github.io/Common/com/eden/orchid/api/options/OptionExtractor"
+                      },
+                      "description": "",
+                      "title": "OptionExtractor",
+                      "content": "<p>Extract classes of a specific type from a JSON-like structure.<\/p>\n"
+                    }]
+                  }
+                },
+                "ownPages": [{
+                  "reference": {
+                    "path": "com/eden/orchid/api",
+                    "baseUrl": "https://javaeden.github.io/Common",
+                    "fileName": "options",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "https://javaeden.github.io/Common/com/eden/orchid/api/options"
+                  },
+                  "description": "",
+                  "title": "com.eden.orchid.api.options",
+                  "content": ""
+                }]
+              },
+              "converters": {
+                "ownKey": "converters",
+                "childrenPages": {
+                  "DateConverter": {
+                    "ownKey": "DateConverter",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "com/eden/orchid/api/converters",
+                        "baseUrl": "https://javaeden.github.io/Common",
+                        "fileName": "DateConverter",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://javaeden.github.io/Common/com/eden/orchid/api/converters/DateConverter"
+                      },
+                      "description": "",
+                      "title": "DateConverter",
+                      "content": "<p>| Input  | Result                 | Converter |\n|--------|------------------------|-----------|\n| number | that number as float   |           |\n| string | parsed number as float | toString  |<\/p>\n"
+                    }]
+                  },
+                  "ClogStringConverterHelper": {
+                    "ownKey": "ClogStringConverterHelper",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "com/eden/orchid/api/converters",
+                        "baseUrl": "https://javaeden.github.io/Common",
+                        "fileName": "ClogStringConverterHelper",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://javaeden.github.io/Common/com/eden/orchid/api/converters/ClogStringConverterHelper"
+                      },
+                      "description": "",
+                      "title": "ClogStringConverterHelper",
+                      "content": ""
+                    }]
+                  },
+                  "Converters": {
+                    "ownKey": "Converters",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "com/eden/orchid/api/converters",
+                        "baseUrl": "https://javaeden.github.io/Common",
+                        "fileName": "Converters",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://javaeden.github.io/Common/com/eden/orchid/api/converters/Converters"
+                      },
+                      "description": "",
+                      "title": "Converters",
+                      "content": ""
+                    }]
+                  },
+                  "DoubleConverter": {
+                    "ownKey": "DoubleConverter",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "com/eden/orchid/api/converters",
+                        "baseUrl": "https://javaeden.github.io/Common",
+                        "fileName": "DoubleConverter",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://javaeden.github.io/Common/com/eden/orchid/api/converters/DoubleConverter"
+                      },
+                      "description": "",
+                      "title": "DoubleConverter",
+                      "content": "<p>| Input  | Result                  | Converter |\n|--------|-------------------------|-----------|\n| number | that number as double   |           |\n| string | parsed number as double | toString  |<\/p>\n"
+                    }]
+                  },
+                  "StringConverter": {
+                    "ownKey": "StringConverter",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "com/eden/orchid/api/converters",
+                        "baseUrl": "https://javaeden.github.io/Common",
+                        "fileName": "StringConverter",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://javaeden.github.io/Common/com/eden/orchid/api/converters/StringConverter"
+                      },
+                      "description": "",
+                      "title": "StringConverter",
+                      "content": "<p>| Input    | Result            | Converter |\n|----------|-------------------|-----------|\n| anything | object.toString() |           |\n| null     | empty string      |           |<\/p>\n"
+                    }]
+                  },
+                  "BooleanConverter": {
+                    "ownKey": "BooleanConverter",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "com/eden/orchid/api/converters",
+                        "baseUrl": "https://javaeden.github.io/Common",
+                        "fileName": "BooleanConverter",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://javaeden.github.io/Common/com/eden/orchid/api/converters/BooleanConverter"
+                      },
+                      "description": "",
+                      "title": "BooleanConverter",
+                      "content": "<p>| Input          | Result | Converter       |\n|----------------|--------|-----------------|\n| null           | false  |                 |\n| true, &quot;true&quot;   | true   |                 |\n| false, &quot;false&quot; | true   |                 |\n| number 0       | false  | NumberConverter |\n| number non-0   | true   | NumberConverter |<\/p>\n"
+                    }]
+                  },
+                  "IntegerConverter": {
+                    "ownKey": "IntegerConverter",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "com/eden/orchid/api/converters",
+                        "baseUrl": "https://javaeden.github.io/Common",
+                        "fileName": "IntegerConverter",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://javaeden.github.io/Common/com/eden/orchid/api/converters/IntegerConverter"
+                      },
+                      "description": "",
+                      "title": "IntegerConverter",
+                      "content": "<p>| Input  | Result               | Converter |\n|--------|----------------------|-----------|\n| number | that number as int   |           |\n| string | parsed number as int | toString  |<\/p>\n"
+                    }]
+                  },
+                  "TypeConverter": {
+                    "ownKey": "TypeConverter",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "com/eden/orchid/api/converters",
+                        "baseUrl": "https://javaeden.github.io/Common",
+                        "fileName": "TypeConverter",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://javaeden.github.io/Common/com/eden/orchid/api/converters/TypeConverter"
+                      },
+                      "description": "",
+                      "title": "TypeConverter",
+                      "content": ""
+                    }]
+                  },
+                  "FlexibleIterableConverter": {
+                    "ownKey": "FlexibleIterableConverter",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "com/eden/orchid/api/converters",
+                        "baseUrl": "https://javaeden.github.io/Common",
+                        "fileName": "FlexibleIterableConverter",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://javaeden.github.io/Common/com/eden/orchid/api/converters/FlexibleIterableConverter"
+                      },
+                      "description": "",
+                      "title": "FlexibleIterableConverter",
+                      "content": ""
+                    }]
+                  },
+                  "LongConverter": {
+                    "ownKey": "LongConverter",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "com/eden/orchid/api/converters",
+                        "baseUrl": "https://javaeden.github.io/Common",
+                        "fileName": "LongConverter",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://javaeden.github.io/Common/com/eden/orchid/api/converters/LongConverter"
+                      },
+                      "description": "",
+                      "title": "LongConverter",
+                      "content": "<p>| Input  | Result                | Converter |\n|--------|-----------------------|-----------|\n| number | that number as long   |           |\n| string | parsed number as long | toString  |<\/p>\n"
+                    }]
+                  },
+                  "FlexibleMapConverter": {
+                    "ownKey": "FlexibleMapConverter",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "com/eden/orchid/api/converters",
+                        "baseUrl": "https://javaeden.github.io/Common",
+                        "fileName": "FlexibleMapConverter",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://javaeden.github.io/Common/com/eden/orchid/api/converters/FlexibleMapConverter"
+                      },
+                      "description": "",
+                      "title": "FlexibleMapConverter",
+                      "content": ""
+                    }]
+                  },
+                  "DateTimeConverter": {
+                    "ownKey": "DateTimeConverter",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "com/eden/orchid/api/converters",
+                        "baseUrl": "https://javaeden.github.io/Common",
+                        "fileName": "DateTimeConverter",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://javaeden.github.io/Common/com/eden/orchid/api/converters/DateTimeConverter"
+                      },
+                      "description": "",
+                      "title": "DateTimeConverter",
+                      "content": "<p>| Input  | Result                 | Converter |\n|--------|------------------------|-----------|\n| number | that number as float   |           |\n| string | parsed number as float | toString  |<\/p>\n"
+                    }]
+                  },
+                  "NumberConverter": {
+                    "ownKey": "NumberConverter",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "com/eden/orchid/api/converters",
+                        "baseUrl": "https://javaeden.github.io/Common",
+                        "fileName": "NumberConverter",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://javaeden.github.io/Common/com/eden/orchid/api/converters/NumberConverter"
+                      },
+                      "description": "",
+                      "title": "NumberConverter",
+                      "content": "<p>| Input          | Result                | Converter       |\n|----------------|-----------------------|-----------------|\n| decimal number | that number as double | DoubleConverter |\n| integer number | that number as long   | LongConverter   |<\/p>\n"
+                    }]
+                  },
+                  "TimeConverter": {
+                    "ownKey": "TimeConverter",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "com/eden/orchid/api/converters",
+                        "baseUrl": "https://javaeden.github.io/Common",
+                        "fileName": "TimeConverter",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://javaeden.github.io/Common/com/eden/orchid/api/converters/TimeConverter"
+                      },
+                      "description": "",
+                      "title": "TimeConverter",
+                      "content": "<p>| Input  | Result                 | Converter |\n|--------|------------------------|-----------|\n| number | that number as float   |           |\n| string | parsed number as float | toString  |<\/p>\n"
+                    }]
+                  },
+                  "StringConverterHelper": {
+                    "ownKey": "StringConverterHelper",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "com/eden/orchid/api/converters",
+                        "baseUrl": "https://javaeden.github.io/Common",
+                        "fileName": "StringConverterHelper",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://javaeden.github.io/Common/com/eden/orchid/api/converters/StringConverterHelper"
+                      },
+                      "description": "",
+                      "title": "StringConverterHelper",
+                      "content": ""
+                    }]
+                  },
+                  "FloatConverter": {
+                    "ownKey": "FloatConverter",
+                    "ownPages": [{
+                      "reference": {
+                        "path": "com/eden/orchid/api/converters",
+                        "baseUrl": "https://javaeden.github.io/Common",
+                        "fileName": "FloatConverter",
+                        "extension": "html",
+                        "usePrettyUrl": true,
+                        "link": "https://javaeden.github.io/Common/com/eden/orchid/api/converters/FloatConverter"
+                      },
+                      "description": "",
+                      "title": "FloatConverter",
+                      "content": "<p>| Input  | Result                 | Converter |\n|--------|------------------------|-----------|\n| number | that number as float   |           |\n| string | parsed number as float | toString  |<\/p>\n"
+                    }]
+                  }
+                },
+                "ownPages": [{
+                  "reference": {
+                    "path": "com/eden/orchid/api",
+                    "baseUrl": "https://javaeden.github.io/Common",
+                    "fileName": "converters",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "https://javaeden.github.io/Common/com/eden/orchid/api/converters"
+                  },
+                  "description": "",
+                  "title": "com.eden.orchid.api.converters",
+                  "content": ""
+                }]
+              },
+              "registration": {
+                "ownKey": "registration",
+                "childrenPages": {"Prioritized": {
+                  "ownKey": "Prioritized",
+                  "ownPages": [{
+                    "reference": {
+                      "path": "com/eden/orchid/api/registration",
+                      "baseUrl": "https://javaeden.github.io/Common",
+                      "fileName": "Prioritized",
+                      "extension": "html",
+                      "usePrettyUrl": true,
+                      "link": "https://javaeden.github.io/Common/com/eden/orchid/api/registration/Prioritized"
+                    },
+                    "description": "",
+                    "title": "Prioritized",
+                    "content": ""
+                  }]
+                }},
+                "ownPages": [{
+                  "reference": {
+                    "path": "com/eden/orchid/api",
+                    "baseUrl": "https://javaeden.github.io/Common",
+                    "fileName": "registration",
+                    "extension": "html",
+                    "usePrettyUrl": true,
+                    "link": "https://javaeden.github.io/Common/com/eden/orchid/api/registration"
+                  },
+                  "description": "",
+                  "title": "com.eden.orchid.api.registration",
+                  "content": ""
+                }]
+              }
+            }
+          }}
+        }
+      }
+    }}
+  }}
+}

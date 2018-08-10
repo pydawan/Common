@@ -1,0 +1,56 @@
+{
+  "ownKey": "index",
+  "childrenPages": {"meta": {
+    "ownKey": "meta",
+    "ownPages": [
+      {
+        "reference": {
+          "path": "meta",
+          "baseUrl": "https://javaeden.github.io/Common",
+          "fileName": "javadoc.index",
+          "extension": "json",
+          "usePrettyUrl": false,
+          "link": "https://javaeden.github.io/Common/meta/javadoc.index.json"
+        },
+        "description": "",
+        "title": "javadoc.index"
+      },
+      {
+        "reference": {
+          "path": "meta",
+          "baseUrl": "https://javaeden.github.io/Common",
+          "fileName": "wiki.index",
+          "extension": "json",
+          "usePrettyUrl": false,
+          "link": "https://javaeden.github.io/Common/meta/wiki.index.json"
+        },
+        "description": "",
+        "title": "wiki.index"
+      },
+      {
+        "reference": {
+          "path": "meta",
+          "baseUrl": "https://javaeden.github.io/Common",
+          "fileName": "home.index",
+          "extension": "json",
+          "usePrettyUrl": false,
+          "link": "https://javaeden.github.io/Common/meta/home.index.json"
+        },
+        "description": "",
+        "title": "home.index"
+      },
+      {
+        "reference": {
+          "path": "meta",
+          "baseUrl": "https://javaeden.github.io/Common",
+          "fileName": "all.index",
+          "extension": "json",
+          "usePrettyUrl": false,
+          "link": "https://javaeden.github.io/Common/meta/all.index.json"
+        },
+        "description": "",
+        "title": "all.index"
+      }
+    ]
+  }}
+}

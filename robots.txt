@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /
+
+Sitemap: https://javaeden.github.io/Common/sitemap.xml
